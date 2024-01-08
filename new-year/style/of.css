@@ -24,6 +24,32 @@ font-family: Merriweather;
 font-size: 50px;
 font-weight: 900px;
 padding-top: 20px;
- 
+ }
+ .off{
+   font-family:'Inter';
+   text-align: center; 
+ }
+ .off > h1{
+   color: #FF0000;
+   font-size: 57px;
+   margin-top: 10px;
+
+ }
+ .off > p{
+   color:#FF0000;
+   font-size: 17px;
+   font-weight: 900;
+   margin-bottom: 4px;
+ }
+ .off >h2{
+   color: #070211;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 1px;
+ }
+ .off >img{
+   margin-top: 88px;
+   width: 656.9px;
+   height: 441px;
  }
 
