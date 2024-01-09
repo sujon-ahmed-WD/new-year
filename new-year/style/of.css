@@ -64,7 +64,8 @@ padding-top: 20px;
  }
  .welcome img{
    margin-left: 1181px;
-   margin-top: -343px;
+   height: 402px;
+   margin-top: -351px;
 }
  .welcome h1{
      color: #FFF;
@@ -126,39 +127,57 @@ font-size: 20px;
   justify-content: center;
   align-items: center;
 }
+.fst{
+  text-align:left;
+}
 .fst h4{
   color: #FF0000;
   font-size: 19px;
   width: 225px;
-  margin-left: 209px;
+  margin-left: 40px;
 }
 .fst h2{
   color: #110202;
   font-family: Merriweather;
   font-size: 44px;
-  margin-left: 209px;
+  margin-left: 40px;
 }
 .fst p{
   color: rgba(7, 2, 17, 0.60);
-  margin-left: 209px;
+  margin-left: 40px;
 }
-.lst h1{
-  color: #FF0000;
-  font-family: Merriweather;
-  font-size: 41px;
-  margin-left: 19px;
+ 
+.imgg,.ss{
+  padding: 30px;
+  border: 10px solid red;
+  border-radius: 100%;
+
+}
+.lst{
+  flex-shrink: 1.2.3;
+}
+.lst,.h1{
+    color: #FF0000;
+    font-family: Merriweather;
+    font-size: 24px;
+    margin-left: 1177px;
+    margin-top: -604px;
 }
 .lst p{
   color: rgba(7, 2, 17, 0.60);
-  margin-left: 19px;
+  font-size: 15px;
+  margin-top: -26px;
 }
-.lst img{
-  margin-left: 19px;
+
+ 
+.gol,.border > .ss{
+  padding: 10px;
+  margin-left: 2px;
+  margin-top: -17px;
+  margin: 96px;
 
 }
-div.imgg {
-  margin-left: 50px;
-}
+
 .holidays{
   justify-content: center;
   align-items: center;
@@ -186,28 +205,81 @@ margin-top: -13px;
 margin-left: 317px;
 
 }
-.photo{  
-margin-left: 287px;  
-flex-direction: row;
-justify-content: center;
-.p{
-  width: 310px;
-  margin: 0 10px 0 10px;
-  margin-top: 15px;
-  transition: background 0.3s ease-in-out;
-  
+.photo{
+   
+  margin-left: 275px;
+  margin-top:23px  ;
 }
-.p img{
-  display: block;
+.text{
+  margin-top: 316px;
+}
+ 
+   
+ 
+ .port{
   width: 100%;
-  border-radius: 5px;
-}
-}
-.photo:hover {
-  background: url(<path-to-image>), rgb(0, 0, 0) 0px -35.755px / 100% 142.115% no-repeat;
-  border-radius: 16px
+  height: 100%;
+ }
+ .p{
+  width: 390px;
+  height: 100%;
+  margin: 15px;
+  transition: .5s;
+ }
+ .p:hover{
+  transform: scale(1.1);
+ }
 
+ .chatbox{
+  margin: 123px;
+  padding: 44px;
+  margin-top: 21px;
+  margin-right: 1093px;
+
+  background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  align-items: center;
+   
+ }
+ .chatbox{
+   height: 89x;
+   margin-top: -60px;
+   margin-right:10px ;
+   border-radius: 57px;
+ }
+ .img{
+margin-left:760px;
+ }
+.tex h1{
+  color: #070211;
+  text-align: center;
+  font-family:Merriweather;
+  font-size: 48px;
+  margin-right: 82px;
+  margin-top: -5px;
+ }
+ .tex p{
+color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+ }
+.pbutton{
+  margin-left: 739px;
+  margin-top: 70px;
+    
 }
+.bt{
+  position: absolute;
+  left: -10;
+}
+
+
+
+
+  
+  
+
  
  
 
