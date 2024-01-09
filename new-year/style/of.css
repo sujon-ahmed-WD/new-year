@@ -126,6 +126,7 @@ font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap:20px;
 }
 .fst{
   text-align:left;
@@ -134,17 +135,17 @@ font-size: 20px;
   color: #FF0000;
   font-size: 19px;
   width: 225px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .fst h2{
   color: #110202;
   font-family: Merriweather;
   font-size: 44px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .fst p{
   color: rgba(7, 2, 17, 0.60);
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
  
 .imgg,.ss{
@@ -160,9 +161,9 @@ font-size: 20px;
   color: #FF0000;
   font-family: Merriweather;
   font-size: 32px;
-  margin-left: 1177px;
-  margin-top: -525px;
-  width: 500px;
+  /* margin-left: 1177px; */
+  /* margin-top: -525px; */
+  /* width: 500px; */
 }
 .lst p{
   color: rgba(7, 2, 17, 0.60);
@@ -328,6 +329,57 @@ font-size: 20px;
   font-size: 24px;
   font-weight: 500;
   padding-top: 50px;
+}
+.discount,.dis-text{
+  text-align: center;
+}
+.dis-text h4{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+}
+.holi{
+color: #F00;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+}
+.dis-text h1{
+color: #070211;
+font-family: Merriweather;
+font-size: 72px;
+}
+.dis-text p{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+margin-top:20px;
+}
+.dis-img{
+  margin: 0;
+  padding: 0;
+}
+.dis-img1{
+  position: relative;
+    z-index: 1;
+    top: 270px;
+    left: 20px;
+}
+.dis-img2{
+  position: relative;
+  z-index: 2;
+  left: 210px;
+  bottom: 40px;
+}
+.dis-img3{
+  padding-left: 58px;
+  position: relative;
+  top: 3px; 
+}
+.dis-im4{
+  width: 100%;
+  position: relative;
 }
 
 
