@@ -157,11 +157,12 @@ font-size: 20px;
   flex-shrink: 1.2.3;
 }
 .lst,.h1{
-    color: #FF0000;
-    font-family: Merriweather;
-    font-size: 24px;
-    margin-left: 1177px;
-    margin-top: -604px;
+  color: #FF0000;
+  font-family: Merriweather;
+  font-size: 32px;
+  margin-left: 1177px;
+  margin-top: -525px;
+  width: 500px;
 }
 .lst p{
   color: rgba(7, 2, 17, 0.60);
@@ -241,14 +242,15 @@ margin-left: 317px;
    
  }
  .chatbox{
-   height: 89x;
-   margin-top: -60px;
-   margin-right:10px ;
-   border-radius: 57px;
+  margin: 0 auto;
+  
+
  }
- .img{
+
+.img{
 margin-left:760px;
  }
+ 
 .tex h1{
   color: #070211;
   text-align: center;
@@ -264,14 +266,68 @@ text-align: center;
 font-family: Inter;
 font-size: 20px;
  }
-.pbutton{
-  margin-left: 739px;
-  margin-top: 70px;
-    
+ .pbutton{
+  width: 648px;
+  height: 72px;
+  display: flex;
+  padding: 50px 0px 0px 0px;
+  margin: 0px 0px 0px 470px;
+ }
+ .em{
+  background: #FFF;
+    width: 438px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 50px 0px 0px 50px;
+    padding-left: 30px;
+ }
+ .bt{
+  border: 0px;
+    color: #FFF;
+    background: #F00;
+    width: 210px;
+    font-size:30px;
+    text-align: center;
+    border: 0px;
+    border-radius: 0px 50px 50px 0px;
+ }
+ footer{
+  height: 500px;    
+  background: #070211;
+  padding: 120px 140px;
+  padding: 120px 140px;
+  
+  padding: 120px 140px;   
+  
 }
-.bt{
-  position: absolute;
-  left: -10;
+
+
+.section6-part1{
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+  padding-bottom: 50px;
+}
+.section6-part2{
+  text-align: center;
+  padding:40px 0px ;
+}
+.section6-part2-imgs{
+  padding: 0px 25px ;
+}
+.section6-part3{
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 50px;
 }
 
 
